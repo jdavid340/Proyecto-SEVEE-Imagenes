@@ -26,13 +26,23 @@ const img = (path) => {
 // ============================================================
 
 export const dessertsData = [
-  { porcentaje: "Nivel Bajo",  p1: "#f5c89a" },
-  { porcentaje: "Nivel Medio", p1: "#f5900a" },
-  { porcentaje: "Nivel Alto",  p1: "#c46a00" },
+  { porcentaje: "Nivel Bajo",  p4: "#f5c89a" },
+  { porcentaje: "Nivel Medio", p4: "#f5900a" },
+  { porcentaje: "Nivel Alto",  p4: "#c46a00" },
 ];
 
 // ============================================================
 // 2. DICCIONARIO DE CANDIDATOS
 // ============================================================
 
-export const candidatoData = [];
+export const candidatoData = [
+  {
+    partido: 4,
+    nombre: "RODRIGO BORJA CEVALLOS",
+    url: img("imagenes_presidentes/1998/candidato_004.png"),
+    logo: img("logos_partidos_politicos/1998/ID_1998.png"),
+    color: "#c46a00",
+    nombrePartido: "COMPLETAR",//este candidato pertenece al partido ID
+    json: "COMPLETAR",
+  },
+];

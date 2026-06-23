@@ -28,7 +28,7 @@ export const dessertsData = [
   {
     porcentaje: "Nivel Bajo",
     p1: "#bdd7e7",
-    p2: "#fdbe85",
+    p2: "#D8B4FE",
     p3: "#cbaada",
     p4: "#fcdabc",
     p5: "#B1E1E7",
@@ -38,7 +38,7 @@ export const dessertsData = [
   {
     porcentaje: "Nivel Medio",
     p1: "#6baed6",
-    p2: "#fd8d3c",
+    p2: "#A855F7",
     p3: "#A569BD",
     p4: "#f8c89c",
     p5: "#64C3CE",
@@ -48,7 +48,7 @@ export const dessertsData = [
   {
     porcentaje: "Nivel Alto",
     p1: "#08519c",
-    p2: "#a63603",
+    p2: "#8A2BE2",
     p3: "#7D3C98",
     p4: "#e69237",
     p5: "#35A0AC",
@@ -74,8 +74,8 @@ export const candidatoData = [
   {
     partido: 2,
     nombre: "DANIEL NOBOA AZIN",
-    url: img("imagenes_presidentes/candidato_002.png"),
-    logo: img("logos_partidos_politicos/ADN.png"), // Asumiendo que existe o se usará placeholder
+    url: img("imagenes_presidentes/2023/DANIELNOBOA_2023.png"),
+    logo: img("logos_partidos_politicos/2023/ADN_2023.png"), // Asumiendo que existe o se usará placeholder
     color: "#8A2BE2", // Violeta/Morado ADN
     nombrePartido: "ADN",
     json: "ADN",

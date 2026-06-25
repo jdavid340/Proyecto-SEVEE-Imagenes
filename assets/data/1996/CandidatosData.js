@@ -128,11 +128,11 @@ export const candidatoData = [
   {
     partido: 4,
     nombre: 'VARGAS FRANK',
-    url: img('candidatos/4.png'),
-    logo: img('partidos/CLARO QUE SE PUEDE.png'),
+    url: img('imagenes_presidentes/1996/FrankVargasPazzos_1996.png'),
+    logo: img('logos_partidos_politicos/1996/APRE_13_1996'),
     color: '#e69237',
     nombrePartido: 'APRE-13',
-    json: '4'
+    json: 'APRE-13'
   },
   {
     partido: 5,

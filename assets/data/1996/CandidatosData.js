@@ -39,9 +39,57 @@ const img = (path) => {
 // ============================================================
 
 export const dessertsData = [
-  { porcentaje: 'Porcentaje de votos bajo', p1: '#6baed6', p2: '#fd8d3c', p3: '#A569BD', p4: '#f8c89c', p5: '#64C3CE', p6: '#f48fb1', p7: '#F1948A', p8: '#8c8c8c', p9: '#7DCEA0', p10: '#907761', p11: '#F4D03F', p12: '#54C3F2', p13: '#fb887d', p14: '#f3d367', p15: '#85c1e9', p16: '#CF77B0' },
-  { porcentaje: 'Porcentaje de votos medio', p1: '#3182bd', p2: '#e6550d', p3: '#8E44AD', p4: '#f2b77c', p5: '#40b6c4', p6: '#f06292', p7: '#EC7063', p8: '#5f5f5f', p9: '#52BE80', p10: '#7e634e', p11: '#F1C40F', p12: '#27B4EF', p13: '#ef7e73', p14: '#c29b2b', p15: '#5dade2', p16: '#c5599f' },
-  { porcentaje: 'Mayor porcentaje de votos', p1: '#08519c', p2: '#a63603', p3: '#7D3C98', p4: '#e69237', p5: '#35A0AC', p6: '#e91e63', p7: '#E74C3C', p8: '#4a4a4a', p9: '#229954', p10: '#553d2a', p11: '#D4AC0D', p12: '#1097D1', p13: '#e37469', p14: '#8f6e0f', p15: '#3498db', p16: '#b5408c' }
+  { porcentaje: 'Porcentaje de votos bajo', 
+   p1: '#6baed6', 
+   p2: '#fd8d3c', 
+   p3: '#fff5cc', 
+   p4: '#f8c89c',
+   p5: '#64C3CE',
+   p6: '#f48fb1',
+   p7: '#D4E157',
+   p8: '#8c8c8c', 
+   p9: '#7DCEA0', 
+   p10: '#907761',
+   p11: '#F4D03F',
+   p12: '#54C3F2',
+   p13: '#fb887d',
+   p14: '#f3d367',
+   p15: '#85c1e9', 
+   p16: '#CF77B0' },
+  { porcentaje: 'Porcentaje de votos medio', 
+   p1: '#3182bd',
+   p2: '#e6550d', 
+   p3: '#ffe57f', 
+   p4: '#f2b77c', 
+   p5: '#40b6c4',
+   p6: '#f06292', 
+   p7: '#9CCC65',
+   p8: '#5f5f5f',
+   p9: '#52BE80',
+   p10: '#7e634e',
+   p11: '#F1C40F',
+   p12: '#27B4EF', 
+   p13: '#ef7e73', 
+   p14: '#c29b2b', 
+   p15: '#5dade2',
+   p16: '#c5599f' },
+  { porcentaje: 'Mayor porcentaje de votos', 
+   p1: '#08519c', 
+   p2: '#a63603', 
+   p3: '#FFD700',
+   p4: '#e69237', 
+   p5: '#35A0AC',
+   p6: '#e91e63',
+   p7: '#556B2F',
+   p8: '#4a4a4a',
+   p9: '#229954',
+   p10: '#553d2a',
+   p11: '#D4AC0D', 
+   p12: '#1097D1', 
+   p13: '#e37469',
+   p14: '#8f6e0f',
+   p15: '#3498db',
+   p16: '#b5408c' }
 ];
 
 // ============================================================
@@ -53,38 +101,38 @@ export const candidatoData = [
   {
     partido: 1,
     nombre: 'PAZ RODRIGO',
-    url: img('candidatos/1.png'),
-    logo: img('partidos/ACTUEMOS.png'),
-    color: '#08519c',
-    nombrePartido: 'DP-5',
-    json: '1'
+    url: img("imagenes_presidentes/1996/RODRIGOPAZ_1996.png"), 
+    logo: img("logos_partidos_politicos/1996/DP_1996.png"), 
+    color: "#009933", 
+    nombrePartido: "DEMOCRACIA POPULAR",  
+    json: "DP" 
   },
   {
     partido: 2,
     nombre: 'NEBOT JAIME',
-    url: img('candidatos/2.png'),
-    logo: img('partidos/ADN.png'),
-    color: '#a63603',
+    url: img('imagenes_presidentes/1996/JAIME_NEBOT_PSC_1996.png'),
+    logo: img('logos_partidos_politicos/1996/PSC_1996.png'),
+    color: '#FFD700',
     nombrePartido: 'PSC-6',
     json: '2'
   },
   {
     partido: 3,
     nombre: 'BUCARAM ABDALA',
-    url: img('candidatos/3.png'),
-    logo: img('partidos/AMIGO.png'),
-    color: '#7D3C98',
+    url: img('imagenes_presidentes/1996/ABDALABUCARAM_1996.png'),
+    logo: img('logos_partidos_politicos/1996/PARTIDO ROLDOSISTA ECUATORIANO.png'),
+    color: '#FFD700',
     nombrePartido: 'PRE-10',
     json: '3'
   },
   {
     partido: 4,
     nombre: 'VARGAS FRANK',
-    url: img('candidatos/4.png'),
-    logo: img('partidos/CLARO QUE SE PUEDE.png'),
+    url: img('imagenes_presidentes/1996/FrankVargasPazzos_1996.png'),
+    logo: img('logos_partidos_politicos/1996/APRE_13_1996'),
     color: '#e69237',
     nombrePartido: 'APRE-13',
-    json: '4'
+    json: 'APRE-13'
   },
   {
     partido: 5,
@@ -104,23 +152,23 @@ export const candidatoData = [
     nombrePartido: 'MUPP-NP-18',
     json: '6'
   },
-  {
+{
     partido: 7,
     nombre: 'GALLARDO JOSE',
-    url: img('candidatos/7.png'),
-    logo: img('partidos/PSC.png'),
+    url: img("imagenes_presidentes/1996/gallardo_1996.png"), 
+    logo: img("logos_partidos_politicos/1996/uci_1996.png"), 
     color: '#E74C3C',
-    nombrePartido: 'UCI-19',
-    json: '7'
+    nombrePartido: "COMPLETAR", 
+    json: "COMPLETAR" 
   },
   {
     partido: 8,
     nombre: 'VALAZQUEZ JACINTO',
-    url: img('candidatos/8.png'),
-    logo: img('partidos/RETO.png'),
+    url: img('imagenes_presidentes/1996/Jacinto_Valazquez.png'),
+    logo: img(''),
     color: '#4a4a4a',
     nombrePartido: 'MITI-20',
-    json: '8'
+    json: 'MITI-20'
   },
   {
     partido: 9,
@@ -130,5 +178,14 @@ export const candidatoData = [
     color: '#229954',
     nombrePartido: 'PLRE-FRA-2/14',
     json: '9'
+  },
+  {
+    partido: 10,
+    nombre: 'EMPATE',
+    url: img(''),
+    logo: img(''),
+    color: '#808080',
+    nombrePartido: 'EMPATE',
+    json: 'EMPATE'
   }
 ];
